@@ -33,3 +33,57 @@
     border: 1px solid black;
     z-index: 1;
 }
+/* .fa{
+    position: relative;
+
+    
+    font-size: 30px;
+} */
+.ctl-panel{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    background-color: bisque;
+    height: 50px;
+    width: 200px;
+    left: calc(50% - 100px);
+    bottom: 10%;
+    border: 2px solid black;
+    border-radius: 25px;
+
+}
+
+.btn-small{
+    height: 50px;
+    width: 50px;   
+}
+.btn-large{
+    height: 50px;
+    width: 50px;
+}
+.btn-img{
+    position: absolute;
+}
+.fa{
+    position: absolute;
+    font-size: 40px;
+    bottom: 50%;
+    top:0px;
+}
+.fa-undo{
+    top: 5px;
+    left:-20px;
+}
+.fa-lock{
+    top: 5px;
+    left: 5%;
+}
+.fa-copy{
+    top: 3px;
+    left: 75%;
+}
+
+/* .board-piece:hover{
+ background-color: blue;
+} */
